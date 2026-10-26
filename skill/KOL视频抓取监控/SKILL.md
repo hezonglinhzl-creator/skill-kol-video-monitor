@@ -11,10 +11,10 @@ Use this skill for the Varla KOL video tracking table in Feishu Base. The user u
 
 Unless the user provides a different table, the target table is:
 
-- Base token: `VZ58b0AKdaJNiAs3kc7cOOGZncc`
-- Video table: `tblAZ234s8zfn3iy`
+- Base token: `YOUR_FEISHU_RESOURCE_TOKEN`
+- Video table: `YOUR_TABLE_ID`
 - Video view: `vewaG9iRnx`
-- Source KOL table: `tblKwzo7QwvYhtjy`
+- Source KOL table: `YOUR_TABLE_ID`
 - Source KOL view: `vewqH4Lvrl`
 
 ## Environment
@@ -218,7 +218,7 @@ API permission note: `instagram_business_manage_insights` can authorize managed-
 
 When the user asks to copy or sync `视频描述` from one Base table into the video-analysis table:
 
-1. Use the source and target table IDs from the user's links. The destination is `tblAZ234s8zfn3iy` only when the user points to that table; do not assume every source table is the fixed KOL table.
+1. Use the source and target table IDs from the user's links. The destination is `YOUR_TABLE_ID` only when the user points to that table; do not assume every source table is the fixed KOL table.
 2. Read both tables and identify the exact `视频链接` and `视频描述` fields. Do not infer a match from creator name, date, caption text, or row order.
 3. Normalize links to a stable video key before matching:
    - Instagram `/reel/{shortcode}/`, `/p/{shortcode}/`, or `/tv/{shortcode}/` -> `ig:{shortcode}`
@@ -309,7 +309,7 @@ Search with the keyword `varla` only. Do not broaden to generic ebike terms unle
 For TikTok and YouTube:
 
 1. Start from source KOL rows only when they satisfy the user’s scope, usually:
-   - `负责人` contains `何宗霖`
+   - `负责人` contains `YOUR_NAME`
    - `Contact Status` includes `已发货`, `已收货`, `已发布`, or `已完成`
    - there is a contract when the user says unsigned creators do not matter
 2. Search public pages for `varla`.

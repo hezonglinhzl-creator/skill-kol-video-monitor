@@ -1,6 +1,6 @@
 {
-  "files": 42,
-  "bytes": 169549,
+  "files": 74,
+  "bytes": 351034,
   "entries": [
     {
       "path": ".gitignore",
@@ -33,6 +33,11 @@
       "sha256": "9c0cc59f5d947a1536e400bf6654f439ec32c9395a195df369a2a0f7d46f9291"
     },
     {
+      "path": "apps/kol-recorder-extension/create_blank_workbook.py",
+      "bytes": 1014,
+      "sha256": "1d9055b42480b41d4c3057d27320a2ed81caced041f9c5b5e7e9933139833557"
+    },
+    {
       "path": "apps/kol-recorder-extension/kol_bookmarklet.txt",
       "bytes": 206,
       "sha256": "5ce41133641a5713f1d4495d94c572ed1eb9642de149eb8c3fb082378b02facd"
@@ -40,7 +45,17 @@
     {
       "path": "apps/kol-recorder-extension/kol_recorder_server.py",
       "bytes": 16490,
-      "sha256": "ebffe3560e9386c595dcd484eccccff25cd62ac8354854c7445d4581787f54b9"
+      "sha256": "8a8bc67b3fab7b89dd99ee0c3e62b3569bbcb9e4b424f1d351baf39e8d3e99f2"
+    },
+    {
+      "path": "apps/kol-recorder-extension/README.en.md",
+      "bytes": 2666,
+      "sha256": "2db02c2403888d47ccd582cbfed0603e674f43e9bb4f366aa66c5f94515083d3"
+    },
+    {
+      "path": "apps/kol-recorder-extension/README.md",
+      "bytes": 2600,
+      "sha256": "227f2510bc9629c00f40c521dd2dcbba2f5c782e9c63ecac055c9e9d7c711223"
     },
     {
       "path": "apps/kol-recorder-extension/requirements.txt",
@@ -80,7 +95,7 @@
     {
       "path": "apps/kol-recorder-extension/Varla_KOL_Recorder_Chrome便携包_文件夹/kol_recorder_server.py",
       "bytes": 10214,
-      "sha256": "04f377be09fac1a32927874d1f9845ee93b9f36047a8d92224a1dbadd83744aa"
+      "sha256": "ee179e0d117a2f62a490d8ad54626729c7d97201af6b061b2b58b20ad2b45c99"
     },
     {
       "path": "apps/kol-recorder-extension/Varla_KOL_Recorder_Chrome便携包_文件夹/KOL记录器_Chrome使用说明.txt",
@@ -125,7 +140,7 @@
     {
       "path": "apps/kol-recorder-extension/Varla_KOL_Recorder_portable_clean/kol_recorder_server.py",
       "bytes": 10214,
-      "sha256": "04f377be09fac1a32927874d1f9845ee93b9f36047a8d92224a1dbadd83744aa"
+      "sha256": "ee179e0d117a2f62a490d8ad54626729c7d97201af6b061b2b58b20ad2b45c99"
     },
     {
       "path": "apps/kol-recorder-extension/Varla_KOL_Recorder_portable_clean/KOL记录器_使用说明.txt",
@@ -143,9 +158,24 @@
       "sha256": "ca300ea7b5d67cf0a40f6776caedcdd5d9f9682e04e38a6d05963daf857bad19"
     },
     {
+      "path": "apps/kol-recorder-extension/初始化空白台账.cmd",
+      "bytes": 69,
+      "sha256": "3469c1a03ffb5d5f36a89df4a85ecdad6204f22f6d26606cd0aa98fca0245e2b"
+    },
+    {
+      "path": "apps/unified-collector-extension/README.en.md",
+      "bytes": 2698,
+      "sha256": "9b1899575bb3a10f659b3ef870c0268e03d8687b768597d2fbfd19467e96f20d"
+    },
+    {
+      "path": "apps/unified-collector-extension/README.md",
+      "bytes": 2650,
+      "sha256": "2e45c4bc79e90bdbcc5468a2144450d75293e6d7b2f68fbc3621806268b99060"
+    },
+    {
       "path": "apps/unified-collector-extension/start_varla_unified_collector.bat",
-      "bytes": 72,
-      "sha256": "ba139b2e260bddbb4e61093ad9ce4ee536a5f0c391f5c5df252887b35c078c71"
+      "bytes": 249,
+      "sha256": "98fda315535cf395520d7674bde7f1d97e4aa2d74c49b0b6043e3604179af71e"
     },
     {
       "path": "apps/unified-collector-extension/varla_unified_collector_extension_无Moto版/content.js",
@@ -173,9 +203,14 @@
       "sha256": "98d05bc5062952462e074e2c93bb4fce885a8c1adca9662cda96c279404807b1"
     },
     {
+      "path": "apps/varla-instagram-monitor/README.en.md",
+      "bytes": 2636,
+      "sha256": "e9705d375f25b94739c5432c2a756926ea4f4edb8d67468e04d0e90ffa86060f"
+    },
+    {
       "path": "apps/varla-instagram-monitor/README.md",
-      "bytes": 2249,
-      "sha256": "e369f6f82bbea4c9a75a3e2eb551036aab8cffa13d05c912b026449501ba6e9e"
+      "bytes": 2552,
+      "sha256": "9a0e7fda98b85e20fbddbe5e7d52aaa5356bb14d8df4a3201bfe08ecae56a160"
     },
     {
       "path": "apps/varla-instagram-monitor/sync_feishu.py",
@@ -188,19 +223,144 @@
       "sha256": "efd4f58c1b339550d069fbe37c717ce9dcdff9575f40d950ccc6fc3db97948d3"
     },
     {
+      "path": "apps/varla-kol-collector/chrome_extension/content.js",
+      "bytes": 26119,
+      "sha256": "39af2f47e183ff257f44134e345557000bb021f72db31e9b57317d994681aff4"
+    },
+    {
+      "path": "apps/varla-kol-collector/chrome_extension/manifest.json",
+      "bytes": 893,
+      "sha256": "906de561b3c19a85dcb278f52924fe0eda97662fa070797c1799df597baf2975"
+    },
+    {
+      "path": "apps/varla-kol-collector/chrome_extension/popup.html",
+      "bytes": 1337,
+      "sha256": "bf205bd61d374d9b2fdce550e1e0e2a7a1c18bbc9ad156b0aa60b4109837a349"
+    },
+    {
+      "path": "apps/varla-kol-collector/chrome_extension/popup.js",
+      "bytes": 825,
+      "sha256": "3019b424463fad0d064e04eaa872eae16d67575c3604463c80de34d2a7f8a213"
+    },
+    {
+      "path": "apps/varla-kol-collector/Install_Environment.bat",
+      "bytes": 2312,
+      "sha256": "b8eb8adffbf14824b157ca64e9e608c8f4b0787fa01033100f8fd5945f08abcf"
+    },
+    {
+      "path": "apps/varla-kol-collector/Install_Python_If_Needed.bat",
+      "bytes": 1016,
+      "sha256": "391afcbca34b16ccbfed07f4f8d2492dd91561f98c64eb738cf1c3faefa82ba4"
+    },
+    {
+      "path": "apps/varla-kol-collector/KOL_recorder/create_blank_workbook.py",
+      "bytes": 1014,
+      "sha256": "1d9055b42480b41d4c3057d27320a2ed81caced041f9c5b5e7e9933139833557"
+    },
+    {
+      "path": "apps/varla-kol-collector/KOL_recorder/kol_recorder_server.py",
+      "bytes": 17555,
+      "sha256": "b88d40bb63d8e0cf48c62363bb43dc951f7bfbd9a534bb312663fbfbe874891e"
+    },
+    {
+      "path": "apps/varla-kol-collector/KOL_recorder/requirements.txt",
+      "bytes": 9,
+      "sha256": "98a24ee50140b14103b49fdcf7b17e21b995b476040f29aa0fb7795f450b915b"
+    },
+    {
+      "path": "apps/varla-kol-collector/KOL_recorder/start_kol_recorder.bat",
+      "bytes": 1329,
+      "sha256": "a6f0504df13f9aa1a161ff737fa38b1630dff6164f15f8e1d7197292a9fbecd3"
+    },
+    {
+      "path": "apps/varla-kol-collector/KOL_recorder/初始化空白台账.cmd",
+      "bytes": 69,
+      "sha256": "3469c1a03ffb5d5f36a89df4a85ecdad6204f22f6d26606cd0aa98fca0245e2b"
+    },
+    {
+      "path": "apps/varla-kol-collector/README.en.md",
+      "bytes": 2753,
+      "sha256": "a7d0c0a57e3ce1e64948cc394217db7b8b9eeadf8f673c8f1a1919153081d8a4"
+    },
+    {
+      "path": "apps/varla-kol-collector/README.md",
+      "bytes": 2665,
+      "sha256": "7741b622f582772281a00f0e9880b27e5d48585cde70b560e2688a7c77adb00d"
+    },
+    {
+      "path": "apps/varla-kol-collector/README_USE.txt",
+      "bytes": 1391,
+      "sha256": "708bdaeabf7b82edcd0042c2fccb3fa95453b465200088becde709194444444e"
+    },
+    {
+      "path": "apps/varla-kol-collector/Start_Varla_Collector.bat",
+      "bytes": 101,
+      "sha256": "40a0f66e09343205d3d3ebc5b180a96f63f2ebdb2f318304b42f7c7922a112f9"
+    },
+    {
+      "path": "apps/varla-kol-collector/Start_Varla_Collector.ps1",
+      "bytes": 1768,
+      "sha256": "9157c702884340b3a081be1eac79fe0a4b483a853eff45e069b3033eeec30343"
+    },
+    {
+      "path": "apps/varla-kol-collector/viral_video_finder/one_click_find_emoto_viral.bat",
+      "bytes": 316,
+      "sha256": "46ccd19a2390a8b3a54c4ca7ce1509b86dd4ddaf0d1da579f274d90240c24659"
+    },
+    {
+      "path": "apps/varla-kol-collector/viral_video_finder/one_click_find_emoto_viral.py",
+      "bytes": 28010,
+      "sha256": "7b59d69ea072710ad1e6b4f985d6980716197eeae3b1b0d31fcf5fc6ab5a03a5"
+    },
+    {
+      "path": "apps/varla-kol-collector/viral_video_finder/start_chrome_instagram_debug.bat",
+      "bytes": 551,
+      "sha256": "cc41c8874421036c96a49ebce718dc22e0f10b952998ebfc9db8d32e7b98ebb4"
+    },
+    {
+      "path": "apps/varla-kol-collector/viral_video_finder/start_viral_video_finder.bat",
+      "bytes": 1285,
+      "sha256": "9c342b7d777674322f524c860796fa88a27faf1eb5cd17f66b193390bd1cb98a"
+    },
+    {
+      "path": "apps/varla-kol-collector/viral_video_finder/viral_video_control_center.py",
+      "bytes": 32565,
+      "sha256": "e3c0734c5cec4f32a447237d16e30bfd899537ccc53e5e0987b6db85504c1074"
+    },
+    {
+      "path": "apps/varla-kol-collector/viral_video_finder/viral_video_finder_server.py",
+      "bytes": 17613,
+      "sha256": "96ab07353cb5348cb66dbf087d763c852abaedba8c575073b860e45a568bd031"
+    },
+    {
       "path": "install.ps1",
       "bytes": 646,
       "sha256": "2d27453c6a86ece11814c03c03496f2bf6e5d035da2e01d958ee1a724c904b7c"
     },
     {
+      "path": "README.en.md",
+      "bytes": 7247,
+      "sha256": "0be2f68eb642005b1784eda688d232b17e2878d0d580330ff583195ec2136067"
+    },
+    {
       "path": "README.md",
-      "bytes": 1181,
-      "sha256": "afcd80e6f334850f5c4202ea2654e40c93e04e3b941dd061eb50d66f459dfc6d"
+      "bytes": 6957,
+      "sha256": "d1324ecbc1a4747f343b22ae5d9d8122deef57fa9bc6cb3ab88a51bde50d2728"
+    },
+    {
+      "path": "skill/KOL视频抓取监控/README.en.md",
+      "bytes": 6175,
+      "sha256": "9907c6dae8affd1763f040b023e6b82f66b6896f885adaa6d341774c3c2ee414"
+    },
+    {
+      "path": "skill/KOL视频抓取监控/README.md",
+      "bytes": 5988,
+      "sha256": "9b6192e315f15803c9160a4379922ea35fb12ebf6641dee8fa86fe7bf0f29f62"
     },
     {
       "path": "skill/KOL视频抓取监控/SKILL.md",
-      "bytes": 24293,
-      "sha256": "98146c94b790ee496fe059ac2392f65cb4e6fcdc55301e62e1630134ed5eaed2"
+      "bytes": 24283,
+      "sha256": "786c4696d39071083cc6933beb73af387c5c07eca0a5d3662fc735905ed6eed8"
     },
     {
       "path": "安装Skill.cmd",

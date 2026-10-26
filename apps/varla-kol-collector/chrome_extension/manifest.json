@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Varla Unified Collector",
+  "version": "1.1.3",
+  "description": "Collect viral videos and record KOL profiles into local Varla spreadsheets.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8765/*",
+    "http://127.0.0.1:8766/*",
+    "https://*.tiktok.com/*",
+    "https://*.instagram.com/*",
+    "https://*.youtube.com/*",
+    "https://youtu.be/*"
+  ],
+  "action": {
+    "default_title": "Varla Unified Collector",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.tiktok.com/*",
+        "https://*.instagram.com/*",
+        "https://*.youtube.com/*",
+        "https://youtu.be/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

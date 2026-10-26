@@ -1,0 +1,54 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  body {
+    width: 330px;
+    font-family: Arial, "Microsoft YaHei", sans-serif;
+    color: #1f2329;
+    padding: 12px;
+  }
+  h1 {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  .status {
+    padding: 8px;
+    border-radius: 6px;
+    margin: 8px 0;
+    font-size: 13px;
+  }
+  .ok {
+    background: #e8f7ee;
+    border: 1px solid #b7ebc6;
+  }
+  .bad {
+    background: #fff1f0;
+    border: 1px solid #ffa39e;
+  }
+  button {
+    width: 100%;
+    border: 0;
+    border-radius: 6px;
+    padding: 9px 12px;
+    background: #245bdb;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  button.secondary {
+    background: #43546f;
+  }
+  .small {
+    color: #646a73;
+    font-size: 12px;
+    line-height: 1.45;
+  }
+</style>
+<h1>Varla Unified Collector</h1>
+<div id="video" class="status">Checking viral video service...</div>
+<div id="kol" class="status">Checking KOL service...</div>
+<button id="openVideo">Open Viral Console</button>
+<button id="openKol" class="secondary">Open KOL Ledger</button>
+<p class="small">Use the floating panel on TikTok / Instagram / YouTube pages. It can record KOL profiles, collect current videos, and collect visible Instagram Reels. YouTube channel pages are recorded with the KOL button.</p>
+<script src="popup.js"></script>

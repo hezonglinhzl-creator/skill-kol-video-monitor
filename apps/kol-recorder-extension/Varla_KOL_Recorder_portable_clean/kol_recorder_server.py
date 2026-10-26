@@ -14,7 +14,7 @@ from openpyxl import load_workbook
 BASE_DIR = Path(__file__).resolve().parent
 WORKBOOK_PATH = BASE_DIR / "outputs" / "varla_kol_tracker.xlsx"
 SHEET_NAME = "KOL建联台账"
-DEFAULT_FIND_NAME = "何宗霖"
+DEFAULT_FIND_NAME = "YOUR_NAME"
 PORT = 8765
 
 
