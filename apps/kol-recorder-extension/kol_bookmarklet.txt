@@ -1,0 +1,4 @@
+名称：记录KOL
+
+网址：
+javascript:(()=>{const u=encodeURIComponent(location.href);const t=encodeURIComponent(document.title);window.open('http://127.0.0.1:8765/add?url='+u+'&title='+t,'_blank');})()

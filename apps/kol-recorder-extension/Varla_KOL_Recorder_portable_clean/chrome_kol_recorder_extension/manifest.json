@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "KOL记录器",
+  "version": "1.1.0",
+  "description": "在 TikTok/Instagram KOL 主页右侧悬浮记录按钮，一键写入本地 xlsx 台账。",
+  "permissions": ["activeTab", "tabs", "scripting"],
+  "host_permissions": [
+    "http://127.0.0.1:8765/*",
+    "https://*.tiktok.com/*",
+    "https://*.instagram.com/*"
+  ],
+  "action": {
+    "default_title": "记录KOL",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.tiktok.com/*",
+        "https://*.instagram.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

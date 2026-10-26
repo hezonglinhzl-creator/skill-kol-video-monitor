@@ -1,0 +1,76 @@
+Varla KOL 记录器使用说明
+
+一、这个压缩包里有什么
+
+1. start_kol_recorder.bat
+   双击启动后台。使用插件前必须先打开它，窗口不要关闭。
+
+2. kol_recorder_server.py
+   后台写表脚本。一般不用手动打开。
+
+3. outputs\varla_kol_tracker.xlsx
+   KOL 台账。插件记录的数据会写到这里。
+
+4. kol_recorder_extension.zip
+   给 AdsPower / Chrome 导入的插件压缩包。
+
+5. chrome_kol_recorder_extension
+   插件源码备份。一般不用动。
+
+
+二、第一次在新电脑使用
+
+1. 先安装 Python 3.10 或以上版本。
+   安装时勾选 Add Python to PATH。
+
+2. 解压整个文件夹。
+   可以放到任意位置，例如 D:\Varla_KOL_Recorder。
+
+3. 双击 start_kol_recorder.bat。
+   如果提示安装 openpyxl，等待安装完成即可。
+   后台窗口需要一直开着。
+
+4. 打开 AdsPower，进入扩展管理。
+   导入 kol_recorder_extension.zip。
+
+5. 打开 TikTok 或 Instagram 的 KOL 主页。
+   例如 https://www.tiktok.com/@example_creator。
+
+6. 点击浏览器右上角的 KOL记录器 插件。
+   勾选“同时抓取页面可见数据”，再点“记录当前KOL”。
+
+7. 记录完成后，数据会写入：
+   outputs\varla_kol_tracker.xlsx
+
+
+三、使用注意
+
+1. 记录 KOL 时，不要同时打开 varla_kol_tracker.xlsx。
+   如果 Excel 或飞书正在打开这个文件，后台可能无法保存。
+
+2. 只能在 KOL 主页点插件。
+   不要在搜索页、消息页、视频详情页点击，否则会被后台拒绝。
+
+3. Followers / Avg Views / Best Video Views 会用 K/M 格式写入。
+   例如 8.1K、202K、1.9M。
+
+4. TikTok 粉丝数优先按官网页面读取。
+   EchoTik / 卖家精灵页面可用于补充国家、近 10 条均播、最高播放、邮箱等可见数据。
+
+5. 如果插件没反应，先检查 start_kol_recorder.bat 的黑色窗口是否还开着。
+
+
+四、常见问题
+
+问题：双击 start_kol_recorder.bat 后闪退。
+处理：检查电脑是否安装 Python，并且安装时是否勾选 Add Python to PATH。
+
+问题：提示 No module named openpyxl。
+处理：bat 会自动尝试安装。如果失败，手动打开 CMD 输入：
+python -m pip install openpyxl
+
+问题：提示 xlsx 正在被占用。
+处理：关闭 Excel / 飞书里打开的 varla_kol_tracker.xlsx，再重新点插件记录。
+
+问题：换电脑后数据写不到表。
+处理：确认整个文件夹都复制过去了，尤其是 outputs\varla_kol_tracker.xlsx 没丢。

@@ -1,0 +1,25 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  body { width: 330px; font-family: Arial, "Microsoft YaHei", sans-serif; color: #1f2329; padding: 12px; }
+  h1 { font-size: 18px; margin: 0 0 10px; }
+  .small { color: #646a73; font-size: 12px; word-break: break-all; }
+  .status { padding: 8px; border-radius: 6px; margin: 8px 0; font-size: 13px; }
+  .ok { background: #e8f7ee; border: 1px solid #b7ebc6; }
+  .bad { background: #fff1f0; border: 1px solid #ffa39e; }
+  button { width: 100%; border: 0; border-radius: 6px; padding: 9px 12px; background: #245bdb; color: white; font-weight: 700; cursor: pointer; }
+  button:disabled { background: #aeb4c0; cursor: not-allowed; }
+  code { background: #f5f6f8; padding: 2px 4px; border-radius: 4px; }
+</style>
+<h1>KOL记录器</h1>
+<div id="server" class="status">检查后台中...</div>
+<div class="small" id="tab">读取当前页面中...</div>
+<button id="record" disabled>记录当前KOL</button>
+<label style="display:flex;gap:6px;align-items:center;margin:10px 0 0;font-size:13px;">
+  <input id="scrape" type="checkbox" checked style="width:auto;margin:0;">
+  同时抓取页面可见数据
+</label>
+<div class="small" style="margin-top:10px;">
+  先双击运行 <code>start_kol_recorder.bat</code>，再在 KOL 主页点击记录。
+</div>
+<script src="popup.js"></script>
