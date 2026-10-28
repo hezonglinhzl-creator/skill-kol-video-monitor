@@ -37,3 +37,4 @@ node_modules/
 **/secrets/
 **/cookies*.json
 **/token*.json
+**/PACKAGE-LOCATION.json

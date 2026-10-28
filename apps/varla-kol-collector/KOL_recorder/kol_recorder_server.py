@@ -161,7 +161,7 @@ def find_row(worksheet, profile_url: str, handle: str) -> int:
     for row in range(3, worksheet.max_row + 1):
         if not worksheet[f"{HEADERS['Handle']}{row}"].value and not worksheet[f"{HEADERS['Profile URL']}{row}"].value:
             return row
-    return worksheet.max_row + 1
+    return max(3, worksheet.max_row + 1)
 
 
 def renumber_records(worksheet) -> None:
@@ -268,7 +268,7 @@ def save_record(params: dict[str, str]) -> tuple[int, str, Path]:
     worksheet[f"{HEADERS['Platform']}{row}"] = platform
     worksheet[f"{HEADERS['Handle']}{row}"] = handle
     worksheet[f"{HEADERS['Profile URL']}{row}"] = url
-    worksheet[f"{HEADERS['Contact Status']}{row}"] = params.get("status") or "已私信"
+    worksheet[f"{HEADERS['Contact Status']}{row}"] = params.get("status") or "待建联"
 
     optional_fields = {
         "email": "Email",

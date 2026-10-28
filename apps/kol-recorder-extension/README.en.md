@@ -34,7 +34,7 @@ A row appears in `outputs/varla_kol_tracker.xlsx`; close Excel/WPS while writing
 
 ## Current limits
 
-Use only visible page data; hidden emails and unavailable metrics remain blank.
+Use only visible page data; hidden emails and unavailable metrics remain blank. Collection alone defaults to not-contacted; contacted status must be explicit.
 
 ## Troubleshooting
 

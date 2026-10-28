@@ -167,7 +167,7 @@ def save_record(params: dict[str, str]) -> tuple[int, str]:
     ws[f"{HEADERS['Handle']}{row}"] = handle
     ws[f"{HEADERS['Profile URL']}{row}"] = url
     ws[f"{HEADERS['DM Link']}{row}"] = url
-    ws[f"{HEADERS['Contact Status']}{row}"] = params.get("status") or "已私信"
+    ws[f"{HEADERS['Contact Status']}{row}"] = params.get("status") or "待建联"
 
     optional_fields = {
         "email": "Email",

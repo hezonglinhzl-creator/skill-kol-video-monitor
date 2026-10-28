@@ -35,7 +35,7 @@ KOL output is under `KOL_recorder/outputs`; video results are under `viral_video
 
 ## Current limits
 
-No real contacts or result workbooks are preloaded; initialize your own tracker first.
+No real contacts or result workbooks are preloaded; initialize your own tracker first. Collection alone defaults to not-contacted; contacted status must be explicit.
 
 ## Troubleshooting
 

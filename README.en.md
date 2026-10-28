@@ -28,6 +28,8 @@ Collect public creator/video records with browser extensions, maintain current m
 2. Right-click the downloaded ZIP and choose **Extract All**. Open the extracted folder containing this README.
 3. Keep the whole folder together. Start the program first using the next section, then install/use its skill.
 
+Installation also writes PACKAGE-LOCATION.json beside the installed SKILL.md, mapping the bundled programs to their actual extracted directories. Keep the full extracted folder; rerun the installer after moving it. Existing Skill content is preserved by default while paths are refreshed.
+
 ## 1. Set up the program first
 
 Recommended: run only the complete varla-kol-collector kit. The standalone KOL recorder is an alternative, not a second service to start on the same 8765 port. Load one collector extension variant at a time.
@@ -48,7 +50,7 @@ Local URL: `http://127.0.0.1:8766`
 
 [Full program / browser-extension guide](apps/varla-kol-collector/README.en.md)
 
-No real contacts or result workbooks are preloaded; initialize your own tracker first.
+No real contacts or result workbooks are preloaded; initialize your own tracker first. Collection alone defaults to not-contacted; contacted status must be explicit.
 
 ### Instagram Current Metrics Core (`varla-instagram-monitor`)
 
@@ -80,7 +82,7 @@ Local URL: `http://127.0.0.1:8765`
 
 [Full program / browser-extension guide](apps/kol-recorder-extension/README.en.md)
 
-Use only visible page data; hidden emails and unavailable metrics remain blank.
+Use only visible page data; hidden emails and unavailable metrics remain blank. Collection alone defaults to not-contacted; contacted status must be explicit.
 
 ### Varla Unified Collector Extension (`unified-collector-extension`)
 

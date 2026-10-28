@@ -1,11 +1,11 @@
 {
   "files": 74,
-  "bytes": 351034,
+  "bytes": 355340,
   "entries": [
     {
       "path": ".gitignore",
-      "bytes": 527,
-      "sha256": "66217f0f41c5aa9113a779c5689e63dd8168e0b6ee1317b7a42003ed9c34120b"
+      "bytes": 552,
+      "sha256": "306594764a35cf47b68ddefaf227968de9684a1c465fafa94d821ba4c5162e96"
     },
     {
       "path": "apps/kol-recorder-extension/chrome_kol_recorder_extension/background.js",
@@ -44,18 +44,18 @@
     },
     {
       "path": "apps/kol-recorder-extension/kol_recorder_server.py",
-      "bytes": 16490,
-      "sha256": "8a8bc67b3fab7b89dd99ee0c3e62b3569bbcb9e4b424f1d351baf39e8d3e99f2"
+      "bytes": 16498,
+      "sha256": "1ff3ef1eb0c45725da0ea330605353060b3187bf92b9c172104d12bc78e7fea4"
     },
     {
       "path": "apps/kol-recorder-extension/README.en.md",
-      "bytes": 2666,
-      "sha256": "2db02c2403888d47ccd582cbfed0603e674f43e9bb4f366aa66c5f94515083d3"
+      "bytes": 2745,
+      "sha256": "5ef3980cbfdaa430ce60139fe17e14f4da8c44bdb4a76a5c0142bbcbb8a221b8"
     },
     {
       "path": "apps/kol-recorder-extension/README.md",
-      "bytes": 2600,
-      "sha256": "227f2510bc9629c00f40c521dd2dcbba2f5c782e9c63ecac055c9e9d7c711223"
+      "bytes": 2685,
+      "sha256": "129f035912e001b46a29c8bc7349605d181ed91de4af8af25029b007b31684bd"
     },
     {
       "path": "apps/kol-recorder-extension/requirements.txt",
@@ -95,7 +95,7 @@
     {
       "path": "apps/kol-recorder-extension/Varla_KOL_Recorder_Chrome便携包_文件夹/kol_recorder_server.py",
       "bytes": 10214,
-      "sha256": "ee179e0d117a2f62a490d8ad54626729c7d97201af6b061b2b58b20ad2b45c99"
+      "sha256": "92e0bc1a0ead1247588c0043209d2a5f92708e7df23511661f702ebb7f183d42"
     },
     {
       "path": "apps/kol-recorder-extension/Varla_KOL_Recorder_Chrome便携包_文件夹/KOL记录器_Chrome使用说明.txt",
@@ -140,7 +140,7 @@
     {
       "path": "apps/kol-recorder-extension/Varla_KOL_Recorder_portable_clean/kol_recorder_server.py",
       "bytes": 10214,
-      "sha256": "ee179e0d117a2f62a490d8ad54626729c7d97201af6b061b2b58b20ad2b45c99"
+      "sha256": "92e0bc1a0ead1247588c0043209d2a5f92708e7df23511661f702ebb7f183d42"
     },
     {
       "path": "apps/kol-recorder-extension/Varla_KOL_Recorder_portable_clean/KOL记录器_使用说明.txt",
@@ -259,8 +259,8 @@
     },
     {
       "path": "apps/varla-kol-collector/KOL_recorder/kol_recorder_server.py",
-      "bytes": 17555,
-      "sha256": "b88d40bb63d8e0cf48c62363bb43dc951f7bfbd9a534bb312663fbfbe874891e"
+      "bytes": 17563,
+      "sha256": "6d2af2a72b7be02a1f9c236ea6885a608559e939a3ba00850e9ec8b7e89213cb"
     },
     {
       "path": "apps/varla-kol-collector/KOL_recorder/requirements.txt",
@@ -279,13 +279,13 @@
     },
     {
       "path": "apps/varla-kol-collector/README.en.md",
-      "bytes": 2753,
-      "sha256": "a7d0c0a57e3ce1e64948cc394217db7b8b9eeadf8f673c8f1a1919153081d8a4"
+      "bytes": 2832,
+      "sha256": "4707acb79d3453e927985c64a0c10f0ea2d138c31e8c582f259e6efb74b7c1aa"
     },
     {
       "path": "apps/varla-kol-collector/README.md",
-      "bytes": 2665,
-      "sha256": "7741b622f582772281a00f0e9880b27e5d48585cde70b560e2688a7c77adb00d"
+      "bytes": 2750,
+      "sha256": "cd4cc979677affb6d1facba1ad19a4c0dc153f4ac1c80e9e6c5c9a50d8366a84"
     },
     {
       "path": "apps/varla-kol-collector/README_USE.txt",
@@ -334,33 +334,33 @@
     },
     {
       "path": "install.ps1",
-      "bytes": 646,
-      "sha256": "2d27453c6a86ece11814c03c03496f2bf6e5d035da2e01d958ee1a724c904b7c"
+      "bytes": 2339,
+      "sha256": "d662489ba0c1bf009c714b6030eab322a04042b5d8ff441eeb56bb4549763dd3"
     },
     {
       "path": "README.en.md",
-      "bytes": 7247,
-      "sha256": "0be2f68eb642005b1784eda688d232b17e2878d0d580330ff583195ec2136067"
+      "bytes": 7695,
+      "sha256": "afa1f4f0c0763178401922590bdef9b9f2c3302b7e9d496c11948aa1b440ce63"
     },
     {
       "path": "README.md",
-      "bytes": 6957,
-      "sha256": "d1324ecbc1a4747f343b22ae5d9d8122deef57fa9bc6cb3ab88a51bde50d2728"
+      "bytes": 7363,
+      "sha256": "0c93313883299440b5335422b670c763010bd885dca5f5e3d450b109ea77af5f"
     },
     {
       "path": "skill/KOL视频抓取监控/README.en.md",
-      "bytes": 6175,
-      "sha256": "9907c6dae8affd1763f040b023e6b82f66b6896f885adaa6d341774c3c2ee414"
+      "bytes": 6333,
+      "sha256": "1442502e565682f21f35aaf6ffa24eda114f57d24b0bfe8c2d4b44cab31f01e5"
     },
     {
       "path": "skill/KOL视频抓取监控/README.md",
-      "bytes": 5988,
-      "sha256": "9b6192e315f15803c9160a4379922ea35fb12ebf6641dee8fa86fe7bf0f29f62"
+      "bytes": 6158,
+      "sha256": "73107bbdba449e46ab5b40ea244285ecb27f250320a6c332ec7bf31bba7e784d"
     },
     {
       "path": "skill/KOL视频抓取监控/SKILL.md",
-      "bytes": 24283,
-      "sha256": "786c4696d39071083cc6933beb73af387c5c07eca0a5d3662fc735905ed6eed8"
+      "bytes": 25345,
+      "sha256": "9f0e59fa03f4922f351b59b0223b40439358287be015a55b76d360bb460c3dbd"
     },
     {
       "path": "安装Skill.cmd",

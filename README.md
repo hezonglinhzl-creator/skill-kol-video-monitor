@@ -28,6 +28,8 @@
 2. 下载完成后右键 ZIP，选择**全部解压**，打开能看到此 README 的文件夹。
 3. 保留整个目录；先按下一节准备程序，再安装和使用对应 Skill。
 
+安装时还会在目标 SKILL.md 旁写入 PACKAGE-LOCATION.json，记录完整包和程序的真实位置。保留整个解压目录；搬家后重新运行安装器。默认保留已有 Skill 内容，只刷新程序位置映射。
+
 ## 1. 先准备程序
 
 推荐先只启动完整 varla-kol-collector 采集器。独立 KOL 记录器是备用入口，不要再同时占用 8765 端口；同类采集扩展也先只加载一个版本。
@@ -48,7 +50,7 @@ Windows、Python 3.10+、Chrome/Edge；首次安装依赖需要网络。
 
 [查看完整程序与浏览器插件安装说明](apps/varla-kol-collector/README.md)
 
-没有预装真实联系人或结果 Excel；首次需自行初始化台账。
+没有预装真实联系人或结果 Excel；首次需自行初始化台账。 仅采集时默认记录为待建联，只有明确传入状态才标记已联系。
 
 ### Instagram 当前指标监控核心 (`varla-instagram-monitor`)
 
@@ -80,7 +82,7 @@ Windows、Python 3.10+、Chrome 或 Edge、openpyxl。
 
 [查看完整程序与浏览器插件安装说明](apps/kol-recorder-extension/README.md)
 
-只读页面可见内容，隐藏邮箱和缺失指标应留空。
+只读页面可见内容，隐藏邮箱和缺失指标应留空。 仅采集时默认记录为待建联，只有明确传入状态才标记已联系。
 
 ### Varla 统一采集 Chrome 插件 (`unified-collector-extension`)
 
